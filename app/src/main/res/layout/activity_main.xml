@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.wwm.petadopt.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layout_fragment_space"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_navigator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#555555"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radiobutton_homepage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/homepage"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_classification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/classification"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_collection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/collection"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/account"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</LinearLayout>
