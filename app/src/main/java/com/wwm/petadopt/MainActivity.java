@@ -12,7 +12,6 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 public class MainActivity extends Activity
 {
 	private static android.app.FragmentManager fragmentManager;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
