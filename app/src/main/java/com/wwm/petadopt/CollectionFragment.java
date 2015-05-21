@@ -11,6 +11,11 @@ public class CollectionFragment extends Fragment
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle saveInstanceState)
 	{
-		return inflater.inflate(R.layout.fragment_collection, container, false);
+		View view=inflater.inflate(R.layout.fragment_collection, container, false);
+
+		return view;
 	}
+
+
+
 }

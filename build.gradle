@@ -2,6 +2,7 @@
 
 buildscript {
     repositories {
+        //mavenCentral()// {url "http://maven.oschina.net/content/groups/public"}
         jcenter()
     }
     dependencies {
